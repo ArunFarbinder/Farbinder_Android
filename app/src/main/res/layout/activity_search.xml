@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arunmannuru.arun.PromotionsFeedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/searchbg">
+
+        <ImageView
+            android:id="@+id/btnWatchVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/watch_video_dark"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="30dp" />
+
+        <EditText
+            android:id="@+id/etWhat"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:hint="@string/enter_what"/>
+
+        <EditText
+            android:id="@+id/etWhere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:hint="@string/enter_where"/>
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="221dp"
+            android:layout_height="56dp"
+            android:src="@drawable/searchbutton"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/bottom_navigation_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/specials"
+            android:drawableTop="@drawable/specials"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calendar"
+            android:drawableTop="@drawable/calendar"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:onClick="ShowSearch"
+            android:drawableTop="@drawable/search"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/community"
+            android:drawableTop="@drawable/community"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:drawableTop="@drawable/profile"
+            android:layout_weight="2"
+            android:onClick="ShowProfile"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</FrameLayout>

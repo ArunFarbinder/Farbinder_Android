@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.arunmannuru.arun.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/signin_bg"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="1"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:contentDescription="@string/farbinder_text"
+            android:src="@drawable/farbinder_logo_blue"/>
+
+        <ImageView
+        android:id="@+id/facebook_loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:contentDescription="@string/connect_with_facebook"
+        android:src="@drawable/signin_fb" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:contentDescription="@string/connect_with_twitter"
+            android:src="@drawable/signin_twitter" />
+
+        <ImageView
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/signup_with_email"
+            android:src="@drawable/signup_button"
+            android:layout_weight="0.73" />
+
+        <TextView
+            android:id="@+id/btnSkipLoginForNow"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:text="@string/skip_login_for_now"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/enter_email"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/enter_password"/>
+
+        <ImageView
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/sign_in"
+            android:src="@drawable/signin_button"/>
+
+        <TextView
+            android:id="@+id/btForgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

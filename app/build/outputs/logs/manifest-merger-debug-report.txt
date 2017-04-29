@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:15:22-76
+application
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:17:5-65:19
+MERGED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/ArunMannuru/.android/build-cache/cb4adf1ad70448a73f99ba8cee58abb104acba62/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/5a4ac094c06a38561690f5a1c37923465e9ec603/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ArunMannuru/.android/build-cache/a3a93ccd6007cb2de4e98b8f46dd456362099769/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/ArunMannuru/.android/build-cache/df90b8f2a5ea06abe72b71851426eabea61daa72/output/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/ArunMannuru/.android/build-cache/d426b5ca00a4529bc47f40e70eda4bd5a58fa66c/output/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/ArunMannuru/.android/build-cache/3bdc3f2f34853337d70760437081bd67c03e1b56/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ArunMannuru/.android/build-cache/032b21148a490976e0d97d274d5367457f295cab/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/efb8b5e784cd17cd083db998c5823072f5a9b991/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ArunMannuru/.android/build-cache/729f5e83fbb4e9f4d6285c38a7f16207de9da025/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ArunMannuru/.android/build-cache/b42909b58228781bcf4301bb2c92ae8f1d48bbc6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/55f95317f8b6cadc4afbdf5c31f4641b40ad182a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ArunMannuru/.android/build-cache/734734375711eddc88ac7334603c5a9124c368ab/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ArunMannuru/.android/build-cache/7f7c932494b7ca28d311aa9783b3d6e60295263e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/ca844e369094ca88514c911804cdd1f0697fee0d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/89dcffbb566abb6a439d1b47c353177fc1b624c0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/4434ee6ef527805f8564b22925f34beb5103423b/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:20:9-41
+	android:supportsRtl
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:22:9-35
+	android:roundIcon
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:21:9-54
+	android:allowBackup
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:19:9-43
+	android:theme
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:23:9-40
+activity#com.example.arunmannuru.arun.MainActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:24:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:28:27-74
+activity#com.example.arunmannuru.arun.ResponseActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:31:9-54
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:31:19-51
+activity#com.example.arunmannuru.arun.PromotionsFeedActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:32:9-60
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:32:19-57
+activity#com.example.arunmannuru.arun.Main2Activity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:33:9-36:47
+	android:label
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:35:13-57
+	android:theme
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:34:13-42
+activity#com.example.arunmannuru.arun.AddNewEvent
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:37:9-49
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:37:19-46
+activity#com.example.arunmannuru.arun.Detail_PromotionFeed
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:38:9-58
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:38:19-55
+activity#com.example.arunmannuru.arun.Profile
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:39:9-45
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:39:19-42
+activity#com.example.arunmannuru.arun.Settings
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:40:9-46
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:40:19-43
+activity#com.example.arunmannuru.arun.Search
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:41:19-41
+activity#com.example.arunmannuru.arun.SearchFeedActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:42:9-56
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:42:19-53
+activity#com.example.arunmannuru.arun.SignUpActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:43:9-52
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:43:19-49
+activity#com.example.arunmannuru.arun.CalendarActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:44:9-54
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:44:19-51
+activity#com.example.arunmannuru.arun.CommunityActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:45:9-55
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:45:19-52
+activity#com.example.arunmannuru.arun.ConnectBusinessActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:46:9-60
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:46:19-58
+activity#com.example.arunmannuru.arun.BusinessProfile
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:47:19-50
+activity#com.example.arunmannuru.arun.EventPost
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:48:9-46
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:48:19-44
+activity#com.example.arunmannuru.arun.MediaActivity
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:49:9-50
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:49:19-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:58:9-60:55
+	android:value
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:60:13-52
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:59:13-58
+activity#com.example.arunmannuru.arun.map_search
+ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:62:9-64:74
+	android:label
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:64:13-62
+	android:name
+		ADDED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml:63:13-39
+uses-sdk
+INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] /Users/ArunMannuru/.android/build-cache/cb4adf1ad70448a73f99ba8cee58abb104acba62/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/5a4ac094c06a38561690f5a1c37923465e9ec603/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/229b4af202416f1517104f13e2b68ccbbf8c5ed3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ArunMannuru/.android/build-cache/a3a93ccd6007cb2de4e98b8f46dd456362099769/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] /Users/ArunMannuru/.android/build-cache/df90b8f2a5ea06abe72b71851426eabea61daa72/output/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/ArunMannuru/.android/build-cache/d426b5ca00a4529bc47f40e70eda4bd5a58fa66c/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/ArunMannuru/.android/build-cache/3bdc3f2f34853337d70760437081bd67c03e1b56/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ArunMannuru/.android/build-cache/032b21148a490976e0d97d274d5367457f295cab/output/AndroidManifest.xml:17:5-43
+MERGED from [com.github.florent37:singledateandtimepicker:1.1.0] /Users/ArunMannuru/.android/build-cache/5bef430098b5d72a1722c65e1f01c75889cd1320/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/efb8b5e784cd17cd083db998c5823072f5a9b991/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ArunMannuru/.android/build-cache/729f5e83fbb4e9f4d6285c38a7f16207de9da025/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ArunMannuru/.android/build-cache/b42909b58228781bcf4301bb2c92ae8f1d48bbc6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/55f95317f8b6cadc4afbdf5c31f4641b40ad182a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ArunMannuru/.android/build-cache/734734375711eddc88ac7334603c5a9124c368ab/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ArunMannuru/.android/build-cache/7f7c932494b7ca28d311aa9783b3d6e60295263e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/ca844e369094ca88514c911804cdd1f0697fee0d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/89dcffbb566abb6a439d1b47c353177fc1b624c0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/4434ee6ef527805f8564b22925f34beb5103423b/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ArunMannuru/AndroidStudioProjects/Arun/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/ArunMannuru/.android/build-cache/cb4adf1ad70448a73f99ba8cee58abb104acba62/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/5a4ac094c06a38561690f5a1c37923465e9ec603/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/229b4af202416f1517104f13e2b68ccbbf8c5ed3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ArunMannuru/.android/build-cache/efb8b5e784cd17cd083db998c5823072f5a9b991/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ArunMannuru/.android/build-cache/729f5e83fbb4e9f4d6285c38a7f16207de9da025/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ArunMannuru/.android/build-cache/b42909b58228781bcf4301bb2c92ae8f1d48bbc6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/55f95317f8b6cadc4afbdf5c31f4641b40ad182a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ArunMannuru/.android/build-cache/734734375711eddc88ac7334603c5a9124c368ab/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ArunMannuru/.android/build-cache/7f7c932494b7ca28d311aa9783b3d6e60295263e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/ca844e369094ca88514c911804cdd1f0697fee0d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ArunMannuru/.android/build-cache/89dcffbb566abb6a439d1b47c353177fc1b624c0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ArunMannuru/.android/build-cache/4434ee6ef527805f8564b22925f34beb5103423b/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/ArunMannuru/.android/build-cache/7742db19778f59b47033dfbd7063bf80dbdbcfa3/output/AndroidManifest.xml:26:9-47
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/ArunMannuru/.android/build-cache/13943bbdd959ad46454c160b999fb1536cb9f86a/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/ArunMannuru/.android/build-cache/03577336f3b263ca27cb17f3e7f23d7d08e1ddd8/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ArunMannuru/.android/build-cache/032b21148a490976e0d97d274d5367457f295cab/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ArunMannuru/.android/build-cache/032b21148a490976e0d97d274d5367457f295cab/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ArunMannuru/.android/build-cache/032b21148a490976e0d97d274d5367457f295cab/output/AndroidManifest.xml:20:20-65

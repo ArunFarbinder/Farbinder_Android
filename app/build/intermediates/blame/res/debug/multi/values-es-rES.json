@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/ArunMannuru/AndroidStudioProjects/Arun/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/ArunMannuru/.android/build-cache/d426b5ca00a4529bc47f40e70eda4bd5a58fa66c/output/res/values-es-rES/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 61,
+                        "endOffset": 242
+                    }
+                }
+            }
+        ]
+    }
+]

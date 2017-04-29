@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/pf_businessTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="Regina size steakhouse and grill" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="16sp"
+            android:id="@+id/pf_addressDistance"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="300dp"
+            android:text="10miles" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/pf_businessAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="204 west Englewood Ave" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="16sp"
+            android:id="@+id/pf_businessLocation"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="185dp"
+            android:text="TEANECK" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="16sp"
+            android:id="@+id/pf_businessState"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="260dp"
+            android:text="NJ" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="16sp"
+            android:id="@+id/pf_businessZipCode"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="300dp"
+            android:text="07666" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
